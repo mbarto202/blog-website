@@ -42,3 +42,18 @@ a{
     text-align: center;
     font-size: smaller;
 }
+
+p{
+    font-size: smaller;
+    color: red;
+    text-align: center;
+}
+
+span{
+    text-align: center;
+    font-size: smaller;
+}
+
+span a{
+    font-size: small;
+}
