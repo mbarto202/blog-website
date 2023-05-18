@@ -9,8 +9,8 @@ const Login = () => {
           <input required type="text" placeholder='Username' />
           <input required type="password" placeholder='Password' />
           <button>Login</button>
-          <a href="/register">Sign up</a>
           <p>Error</p>
+          <a href="/register">Sign up</a>
         </form>
     </div>
   )

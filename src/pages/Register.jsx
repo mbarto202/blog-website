@@ -10,8 +10,8 @@ const Register = () => {
           <input required type="email" placeholder='Email' />
           <input required type="password" placeholder='Password' />
           <button>Register</button>
-          <span>Already have an account? <a href="/login">Login</a></span>
           <p>Error</p>
+          <span>Already have an account? <a href="/login">Login</a></span>
         </form>
     </div>
   )
