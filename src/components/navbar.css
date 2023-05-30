@@ -4,3 +4,9 @@
     position: relative;
     left: 350px;
 }
+
+.links {
+    display: flex;
+    position: relative;
+    left: 740px;
+}
