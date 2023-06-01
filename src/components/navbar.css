@@ -1,12 +1,11 @@
 .navbar{
     padding: 10px 0px;
     display: flex;
-    position: relative;
-    left: 350px;
+    width: 720px;
+    justify-content: center;
 }
 
-.links {
-    display: flex;
+.links{
     position: relative;
-    left: 740px;
+    left: 800px;
 }
