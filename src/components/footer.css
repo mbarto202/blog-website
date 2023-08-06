@@ -44,6 +44,7 @@
 .footerSocials a:hover {
     background: white;
     color: black;
+    transition: var(--transition);
 }
 
 .footerCopyright {

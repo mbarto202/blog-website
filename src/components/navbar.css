@@ -29,4 +29,6 @@
     color: black;
     background-color: white;
     cursor: pointer;
+    
+    transition: var(--transition);
 }
