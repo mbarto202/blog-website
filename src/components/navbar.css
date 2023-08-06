@@ -14,7 +14,7 @@
 }
 
 .write {
-    background-color: crimson;
+    background-color: salmon;
     color: white;
     width: 50px;
     height: 50px;
@@ -22,10 +22,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 0.5px crimson;
+    border: solid 0.5px salmon;
 }
 
 .write:hover {
     color: black;
     background-color: white;
+    cursor: pointer;
 }

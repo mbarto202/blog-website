@@ -1,13 +1,6 @@
-footer {
-    background: var(--color-primary);
-    padding: 3rem 0;
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 7rem;
-}
 
-footer a {
-    color: var(--color-bg);
+.footer {
+    background-color: salmon;
 }
 
 .footerLogo {
@@ -16,7 +9,11 @@ footer a {
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
-    
+    color: rgb(145, 3, 31);
+}
+
+.ftlinks {
+    color: rgb(133, 10, 34);
 }
 
 .permalinks {
@@ -25,6 +22,7 @@ footer a {
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 2rem;
+    color: crimson;
 }
 
 .footerSocials {

@@ -9,10 +9,10 @@ const Footer = () => {
       <a href="#" className='footerLogo'>Barto Blog</a>
 
       <ul className='permalinks'>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#about'>About</a></li>
-        <li><a href='#portfolio'>Portfolio</a></li>
-        <li><a href='#contact'>Contact</a></li>
+        <li><a href='#' className='ftlinks'>Home</a></li>
+        <li><a href='#about' className='ftlinks'>About</a></li>
+        <li><a href='#portfolio' className='ftlinks'>Portfolio</a></li>
+        <li><a href='#contact' className='ftlinks'>Contact</a></li>
       </ul>
 
       <div className="footerSocials">
