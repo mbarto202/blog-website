@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import fall from './fall.jpg'
 
 const Home = () => {
   const posts = [
@@ -7,7 +8,13 @@ const Home = () => {
       id: 1,
       title: "pomp",
       desc: "pomp",
-      img: ""}
+      img: fall},
+
+      {
+        id: 1,
+        title: "pomp",
+        desc: "pomp",
+        img: fall}
   ];
   return (
     <div className='home'>
@@ -18,11 +25,11 @@ const Home = () => {
               <img src={post.img} alt=""/>
             </div>
             <div className="content">
-              <li to={`/post/${post.id}`}>
+              <li className="link" to={`/post/${post.id}`}>
                 <h1>{post.title}</h1>
-                <p>{post.desc}</p>
-                <button>Read More</button>
               </li>
+              <p>{post.desc}</p>
+              <button>Read More</button>
             </div>
           </div>
         ))}
