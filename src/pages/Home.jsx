@@ -7,14 +7,12 @@ const Home = () => {
     {
       id: 1,
       title: "pomp",
-      desc: "pomp",
-      img: fall},
+      desc: "pomp"},
 
       {
         id: 1,
         title: "pomp",
-        desc: "pomp",
-        img: fall}
+        desc: "pomp"}
   ];
   return (
     <div className='home'>
