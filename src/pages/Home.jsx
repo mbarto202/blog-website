@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import fall from './fall.jpg'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const posts = [
@@ -23,9 +24,9 @@ const Home = () => {
               <img src={post.img} alt=""/>
             </div>
             <div className="content">
-              <li className="link" to={`/post/${post.id}`}>
+              <Link className="link" to={`/post/${post.id}`}>
                 <h1>{post.title}</h1>
-              </li>
+              </Link>
               <p>{post.desc}</p>
               <button>Read More</button>
             </div>
