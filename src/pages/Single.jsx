@@ -13,11 +13,14 @@ const Single = () => {
           <p>Posted 2 days ago</p>
         </div>
         <div className="edit">
-          <Link to={'write?edit=2'}>edit</Link>
-          <Link to={'write?edit=2'}>delete</Link>
+          <Link to={'/write?edit=2'}>edit</Link>
+          <Link to={'/write?edit=2'}>delete</Link>
         </div>
+        <h1>Title</h1>
+        <p>hello my name is michael and this is a placeholder for the content that will be in the post. <br />this website will represent my knowledge of javascript html/css and mysql</p>
       </div>
-      <div className="menu">menu</div>
+      
+      <div className="menu">Menu</div>
     </div>
   )
 }
