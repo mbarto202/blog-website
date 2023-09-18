@@ -21,7 +21,7 @@ const Navbar = () => {
         </Link>
         <span>User</span>
         <span>Logout</span>
-        <a className='write'>
+        <a className='writebtn'>
           <Link className= 'link' to="/write">Write</Link>
         </a>
       </div>

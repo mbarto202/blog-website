@@ -1,0 +1,17 @@
+.write {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+
+    .content {
+        flex: 5;
+        margin-left: 180px;
+    }
+
+    .menu {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
