@@ -15,7 +15,17 @@ console.log(value);
         </div>
       </div>
       <div className="menu">
-        <div className="item">item1</div>
+        <div className="item">
+          <h1>Publilsh</h1>
+          <span>
+            <b>Status: </b> Draft
+          </span>
+          <span>
+            <b>Visibility: </b> Public
+          </span>
+          <input style={{display:"none"}} type="file" id='file' />
+          <label htmlFor="file">Upload Image</label>
+        </div>
         <div className="item">item2</div>
       </div>
     </div>
