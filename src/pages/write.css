@@ -3,6 +3,11 @@
     display: flex;
     gap: 20px;
 
+    .title {
+        border: 1px solid lightgrey;
+        margin-bottom: 10px;
+    }
+
     .content {
         flex: 5;
         margin-left: 180px;
@@ -14,6 +19,8 @@
         flex-direction: column;
         gap: 20px;
     }
+
+    
 
    
 }

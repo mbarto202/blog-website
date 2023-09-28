@@ -9,7 +9,7 @@ console.log(value);
   return (
     <div className="write">
       <div className="content">
-        <input type="text" placeholder='Title' />
+        <input className='title' type="text" placeholder='Title' />
         <div className="editorContainer">
           <ReactQuill theme='snow' value={value} onChange={setValue}></ReactQuill>
         </div>
@@ -32,9 +32,9 @@ console.log(value);
         </div>
         <div className="item">
           <h1>Category</h1>
-          <input type="radio" name="cat" value="programming" id="programming"/>
+          <input className='rad' type="radio" name="cat" value="programming" id="programming"/>
           <label htmlFor="programming">Programming</label>
-          <input type="radio" name="cat" value="bodybuilding" id="bodybuilding"/>
+          <input className='rad' type="radio" name="cat" value="bodybuilding" id="bodybuilding"/>
           <label htmlFor="bodybuilding">Bodybuilding</label>
         </div>
       </div>
