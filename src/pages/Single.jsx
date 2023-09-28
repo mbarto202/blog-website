@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom'
 const posts = [
   {
     id: 1,
-    title: "pomp",
-    desc: "pomp"},
+    title: "title",
+    desc: "description"},
 
     {
       id: 1,
-      title: "pomp",
-      desc: "pomp"}
+      title: "title",
+      desc: "description"}
 ];
 const Single = () => {
   return (

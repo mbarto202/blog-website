@@ -25,8 +25,18 @@ console.log(value);
           </span>
           <input style={{display:"none"}} type="file" id='file' />
           <label htmlFor="file">Upload Image</label>
+          <div className="buttons">
+            <button>Save as draft</button>
+            <button>Update</button>
+          </div>
         </div>
-        <div className="item">item2</div>
+        <div className="item">
+          <h1>Category</h1>
+          <input type="radio" name="cat" value="programming" id="programming"/>
+          <label htmlFor="programming">Programming</label>
+          <input type="radio" name="cat" value="bodybuilding" id="bodybuilding"/>
+          <label htmlFor="bodybuilding">Bodybuilding</label>
+        </div>
       </div>
     </div>
   )

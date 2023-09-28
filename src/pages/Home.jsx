@@ -7,13 +7,13 @@ const Home = () => {
   const posts = [
     {
       id: 1,
-      title: "pomp",
-      desc: "pomp"},
+      title: "title",
+      desc: "description"},
 
       {
         id: 1,
-        title: "pomp",
-        desc: "pomp"}
+        title: "title",
+        desc: "description"}
   ];
   return (
     <div className='home'>
