@@ -5,13 +5,13 @@ import 'react-quill/dist/quill.snow.css';
 
 const Write = () => {const [value, setValue] = useState('');
 console.log(value);
-
+//49
   return (
     <div className="write">
       <div className="content">
         <input className='title' type="text" placeholder='Title' />
         <div className="editorContainer">
-          <ReactQuill theme='snow' value={value} onChange={setValue}></ReactQuill>
+          <ReactQuill className='editor' theme='snow' value={value} onChange={setValue}></ReactQuill>
         </div>
       </div>
       <div className="menu">
