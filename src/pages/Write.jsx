@@ -24,7 +24,7 @@ console.log(value);
             <b>Visibility: </b> Public
           </span>
           <input style={{display:"none"}} type="file" id='file' />
-          <label htmlFor="file">Upload Image</label>
+          <label className='file' htmlFor="file">Upload Image</label>
           <div className="buttons">
             <button>Save as draft</button>
             <button>Update</button>
@@ -32,10 +32,14 @@ console.log(value);
         </div>
         <div className="item">
           <h1>Category</h1>
-          <input className='rad' type="radio" name="cat" value="programming" id="programming"/>
-          <label htmlFor="programming">Programming</label>
-          <input className='rad' type="radio" name="cat" value="bodybuilding" id="bodybuilding"/>
-          <label htmlFor="bodybuilding">Bodybuilding</label>
+          <div className="cat">
+            <input className='rad' type="radio" name="cat" value="programming" id="programming"/>
+            <label htmlFor="programming">Programming</label>
+          </div>
+          <div className="cat">
+            <input className='rad' type="radio" name="cat" value="bodybuilding" id="bodybuilding"/>
+            <label htmlFor="bodybuilding">Bodybuilding</label>
+          </div>
         </div>
       </div>
     </div>

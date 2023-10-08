@@ -20,11 +20,16 @@
         gap: 20px;
 
         .item {
+            padding: 5px;
             border: 1px solid lightgrey;
             margin-top: 48px;
             width: 300px
         }
         
+    }
+
+    .item > h1 {
+        color: black
     }
    
     .editorContainer {
@@ -37,5 +42,29 @@
             height: 85%;
             border: none;
         }
+    }
+
+    .file {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+
+        :first-child {
+            cursor: pointer;
+            color: crimson;
+            background-color: white;
+            border: 1px solid crimson;
+        }
+    }
+
+    .cat {
+        display: flex;
+        align-items: center;
+        color: crimson;
     }
 }
